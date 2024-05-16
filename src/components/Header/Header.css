@@ -10,7 +10,7 @@
   
   .cta {
     padding-top: 1rem;
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
   }
   
   @media screen and (max-width: 420px) {

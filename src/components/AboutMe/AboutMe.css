@@ -4,11 +4,7 @@
     text-decoration: underline;
 }
 
-.about-container {
-    border-right: 1px solid white;
-    
 
-}
 
 
 .about__icon{
@@ -22,10 +18,5 @@
 
 
 
-@media screen and (max-width: 991px) {
-    
-    .about-container{
-       border: none;
-    }
-}
+
 

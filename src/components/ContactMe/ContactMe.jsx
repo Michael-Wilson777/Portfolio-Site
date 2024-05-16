@@ -1,56 +1,56 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './ContactMe.css';
 import { MdOutlineEmail } from 'react-icons/md';
 
-const Contacts = () => {
-  const form = useRef();
+const Contact = () => {
+  // const form = useRef();
 
-  const sendEmail = async (e) => {
-    e.preventDefault();
+  // const sendEmail = async (e) => {
+  //   e.preventDefault();
 
-    const formData = new FormData(form.current);
-    const data = {
-      name: formData.get('name'),
-      email: formData.get('email'),
-      message: formData.get('message')
-    };
+  //   const formData = new FormData(form.current);
+  //   const data = {
+  //     name: formData.get('name'),
+  //     email: formData.get('email'),
+  //     message: formData.get('message')
+  //   };
 
-    try {
-      const response = await fetch('/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(data)
-      });
+  //   try {
+  //     const response = await fetch('/send-email', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json'
+  //       },
+  //       body: JSON.stringify(data)
+  //     });
 
-      if (response.ok) {
-        alert('Email sent successfully!');
-        form.current.reset();
-      } else {
-        alert('Failed to send email. Please try again later.');
-      }
-    } catch (error) {
-      console.error('Error sending email:', error);
-      alert('An error occurred. Please try again later.');
-    }
-  };
+  //     if (response.ok) {
+  //       alert('Email sent successfully!');
+  //       form.current.reset();
+  //     } else {
+  //       alert('Failed to send email. Please try again later.');
+  //     }
+  //   } catch (error) {
+  //     console.error('Error sending email:', error);
+  //     alert('An error occurred. Please try again later.');
+  //   }
+  // };
 
   return (
-    <section className='contact col-lg-6 ps-5' id='contacts'>
-      <div className='container-fluid pt-5 text-center'>
+    <section className='contact' id='contacts'>
+      {/* <div className='container-fluid pt-5 text-center'>
         <div className='row mb-3'>
           <div className='col'>
             <h2 className='title'>Contact Me</h2>
             
           </div>
         </div>
-      </div>
-      <div className='container mt-3 py-3'>
-        <div className='row'>
-          <div className="col">
-            <div className="container-fluid contact__container contact__options">                
-              <article className='contact__option text-light'>
+      </div> */}
+      <div className='container text-center pb-5 mb-5'>
+        <div className='row row-content justify-content-center'>
+          <div className="col-md-6">
+            <div className="container-fluid d-flex contact__container contact__options">                
+              <article className='contact__option mx-5 text-light'>
                 <MdOutlineEmail className='contact__option-icon'/>
                 <h4>Email</h4>
                 <h5>michaelwilson777@gmail.com</h5>
@@ -58,7 +58,7 @@ const Contacts = () => {
               </article>
             </div>
           </div>
-          <div className='container pt-4 text-center'>
+          {/* <div className='container pt-4 text-center'>
             <div className='row'>
               <div className='col'>
                 <form ref={form} onSubmit={sendEmail}>
@@ -69,11 +69,11 @@ const Contacts = () => {
                 </form>
               </div>
             </div>
-          </div>         
+          </div>          */}
         </div>
       </div>
     </section>
   );
 };
 
-export default Contacts;
+export default Contact;
