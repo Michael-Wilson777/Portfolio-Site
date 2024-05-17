@@ -1,6 +1,7 @@
 import React from 'react';
 import './resume.css'; // Ensure styles are scoped to this component
 
+
 const Resume = () => {
   return (
     <div className="resume">

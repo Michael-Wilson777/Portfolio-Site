@@ -1,6 +1,6 @@
 import React from "react";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import Contact from "../ContactMe/ContactMe";
+import Contact from "../../pages/ContactPage/ContactMe";
 
 const Footer = () => {
   return (

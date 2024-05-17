@@ -5,7 +5,7 @@ import image1 from "../../assets/tic-tac-toe.PNG";
 import image2 from "../../assets/rpg.jpg";
 import image3 from "../../assets/calc.PNG";
 
-const Myprojects = () => {
+const Projects = () => {
   return (
     <section className="container" id="myprojects">
       <h2 className="heading text-center mb-5">My Projects</h2>
@@ -130,4 +130,4 @@ const Myprojects = () => {
   );
 };
 
-export default Myprojects;
+export default Projects;
