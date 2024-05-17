@@ -10,3 +10,4 @@ const ResumePage = () => {
         </Container>
     );
 }
+export default ResumePage;

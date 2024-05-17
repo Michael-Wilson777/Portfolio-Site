@@ -1,7 +1,6 @@
 import { useState } from "react";
 import {
   Navbar,
-  NavbarBrand,
   NavbarToggler,
   Nav,
   NavItem,
@@ -9,11 +8,11 @@ import {
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
 
-const SubHeader = ()=> {
+const SubHeader = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-      <Navbar dark color="primary" sticky="top" expand="md">
+      <Navbar className='d-block' dark color="primary" sticky="top" expand="md">
         <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
         <Collapse isOpen={menuOpen} navbar>
           <Nav className="ms-auto" navbar>
@@ -23,7 +22,7 @@ const SubHeader = ()=> {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="/directory">
+              <NavLink className="nav-link" to="/projects">
                 <i className="fa fa-list fa-lg" /> Projects
               </NavLink>
             </NavItem>
@@ -41,5 +40,6 @@ const SubHeader = ()=> {
         </Collapse>
       </Navbar>
     );
-  };
-  export default SubHeader
+};
+
+export default SubHeader;

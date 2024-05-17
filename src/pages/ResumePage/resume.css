@@ -7,11 +7,11 @@
     grid-template-columns: var(--bs-columns);
 } */
 
-* {
+/* * {
     max-width: 800px;
     margin: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+} */
 
 .resume-header {
     background-color: #ACD68B;

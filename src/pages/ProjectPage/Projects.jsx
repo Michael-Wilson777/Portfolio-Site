@@ -1,5 +1,7 @@
 import React from "react";
-import "./MyProjects.css";
+
+ 
+import "./Projects.css";
 import image from "../../assets/nucampsite.PNG";
 import image1 from "../../assets/tic-tac-toe.PNG";
 import image2 from "../../assets/rpg.jpg";
@@ -7,11 +9,12 @@ import image3 from "../../assets/calc.PNG";
 
 const Projects = () => {
   return (
-    <section className="container" id="myprojects">
-      <h2 className="heading text-center mb-5">My Projects</h2>
+   
+      
 
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
         <article className="col">
+        <h2 className="heading text-center mb-5">My Projects</h2>
           <div className="card bg-transparent border-dark justify-content-between">
             <img src={image} className="card-img-top" alt="campsite" />
             <div className="card-body">
@@ -126,7 +129,8 @@ const Projects = () => {
           </div>
         </article>
       </div>
-    </section>
+    
+    
   );
 };
 

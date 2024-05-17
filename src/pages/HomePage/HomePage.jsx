@@ -1,7 +1,7 @@
 import { Container } from "reactstrap";
 import SubHeader from '../../components/SubHeader';
 import PageList from "./PageList";
-import { Intro } from "../../Intro";
+import {Intro }from "../../Intro";
 
 
 
