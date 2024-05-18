@@ -1,13 +1,13 @@
 import { Container } from "reactstrap";
-import SubHeader from '../../components/SubHeader';
-import Resume from './Resume';
+import Nav from "../../components/Nav";
+import Resume from "./Resume";
 
 const ResumePage = () => {
-    return (
-        <Container>
-            <SubHeader />
-            <Resume />
-        </Container>
-    );
-}
+  return (
+    <Container>
+      <Nav current='resume' />
+      <Resume />
+    </Container>
+  );
+};
 export default ResumePage;

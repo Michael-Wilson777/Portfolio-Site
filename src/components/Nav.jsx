@@ -36,6 +36,11 @@ const SubHeader = () => {
                 <i className="fa fa-address-card fa-lg" /> Contact Me
               </NavLink>
             </NavItem>
+            {/* <NavItem>
+              <NavLink className="nav-link" to="/resume">
+                <i className="fa fa-address-card fa-lg" /> Resume
+              </NavLink>
+            </NavItem> */}
           </Nav>
         </Collapse>
       </Navbar>

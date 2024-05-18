@@ -1,6 +1,7 @@
 import React from "react";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import Contact from "../../pages/ContactPage/ContactMe";
+
+// import Contact from "../../pages/ContactPage/ContactMe";
 
 const Footer = () => {
   return (
@@ -22,7 +23,6 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-md-6 align-self-center">
-            <Contact />
           </div>
         </div>
       </section>

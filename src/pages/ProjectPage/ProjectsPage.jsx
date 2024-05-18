@@ -1,13 +1,24 @@
+import React from "react";
 import { Container } from "reactstrap";
-import ProjectsList from "./PojectsList";
-import SubHeader from "../../components/SubHeader";
+import ProjectsList from "./ProjectsList";
+import Nav from "../../components/Nav";
 
 const ProjectsPage = () => {
   return (
-    <Container>
-      <SubHeader current="projects" />
-      <ProjectsList />
-    </Container>
+    <div className='projects__page'>
+      <Container fluid>
+
+          <Nav current="projects" />
+
+      </Container>
+
+      
+
+      <Container fluid>      
+          <ProjectsList />
+      </Container>
+
+    </div>
   );
 };
 
