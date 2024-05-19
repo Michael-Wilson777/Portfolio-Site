@@ -2,7 +2,7 @@
 
 * {
     background-color: #010021;
-    /* background-image: url('assets/asfalt-light.png'); */
+    background-image: url('assets/asfalt-light.png');
     
 
 }
@@ -55,13 +55,15 @@ html{
     overflow-x: hidden;
     
 } */
-.navbar-dark {
-    background-color: #901cad;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);
-    margin-bottom: 2rem;
-    min-height: 8rem;
-  }
+/* .navbar-dark {
+    /* background-color: #901cad;
+    background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a); */
+    /* margin-bottom: 2rem;
+    min-height: 8rem; */
+  /*} */
+/* .nav-link {
 
+} */
 /* .container{
 
     width: var(--container-width-lg);
