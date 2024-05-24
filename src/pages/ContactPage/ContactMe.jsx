@@ -2,7 +2,7 @@ import React from "react";
 import "./ContactMe.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { Container, Col, Row } from "reactstrap";
-import Nav from "../../components/Nav";
+import Navigation from "../../components/nav/Navigation";
 
 const Contact = () => {
   // const form = useRef();
@@ -40,19 +40,35 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <Nav current="/contact" />
-      <Container>
+      <Container fluid className="ms-5 mb-5">
+        <Navigation current="/contact" />
+      </Container>
+      <Container className='text-center ps-5'>
         <Row>
+          <Col sm='5'>
+            <h1 className='text-light'>ThankYou!</h1>
+            <p className='text-light fs-4'>
+              Feel free to contact me and let me know what you think. I'm still
+              learning but I'm also picking it up at a goo pace. I appreciate
+              your visit!
+            </p>
+          </Col>
           <Col>
-            <article className="contact__option mx-5 text-light">
+            <article className="contact__option mx-5 ps-5">
               <MdOutlineEmail className="contact__option-icon" />
-              <h4>Email</h4>
-              <h5>michaelwilson777@gmail.com</h5>
-              <a href="mailto:michaelwilson777@gmail.com">Send a message</a>
+              <h4 className='email-head'>Email</h4>
+              <h5 className='fs-5 email'>michaelwilson777@gmail.com</h5>
+              <a className='sndMsg' href="mailto:michaelwilson777@gmail.com">Send a message</a>
             </article>
           </Col>
         </Row>
       </Container>
+      <Container>
+        <Row>
+          
+        </Row>
+      </Container>
+      
     </div>
   );
 };

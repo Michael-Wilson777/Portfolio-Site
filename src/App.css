@@ -1,11 +1,16 @@
 
 
-* {
+
+.projects__page,
+.home-page,
+.contact,
+.about {
     background-color: #010021;
     background-image: url('assets/asfalt-light.png');
-    
 
 }
+
+
 /* .container, header, footer{
     background-color: #010021;
 } */

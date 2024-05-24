@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "reactstrap";
-import Nav from "../../components/Nav";
+import Navigation from "../../components/nav/Navigation";
 
 import "./AboutMe.css";
 import { GiGraduateCap } from "react-icons/gi";
@@ -8,16 +8,19 @@ import { BsBookmarkStar } from "react-icons/bs";
 const About = () => {
   return (
     <div className="about">
-      <Nav current="about" />
+      <Container fluid className='ms-4'>
+      <Navigation current="about" />
+      </Container>
+      
 
-      <Container>
+      <Container className="mt-1">
         <Row>
           <Col>
             <h2 className="title text-center">About Me</h2>
           </Col>
         </Row>
         <Row>
-          <Col className="col-lg text-start">
+          <Col className="col-xlg text-start">
             <p className="text-light fs-5 font-monospace my-3">
               I'm a U.S. Army veteran{" "}
               <strong>Software Engineering Student</strong> in the Nucamp Full
@@ -33,9 +36,9 @@ const About = () => {
             </p>
           </Col>
         </Row>
-        <Row>
-          <Col md="4">
-            <article className="about__card text-light text-start pe-2">
+        <Row className="align-items-center ps-5">
+          <Col lg="4">
+            <article className="about__card ms-5 ps-5 text-light text-start pe-2">
               <GiGraduateCap className="about__icon" />
               <h5>Certificate</h5>
               <span>
@@ -44,10 +47,8 @@ const About = () => {
               </span>
             </article>
           </Col>
-        </Row>
-        <Row>
-          <Col md="4">
-            <article className="about__card text-light">
+          <Col className="align-self-center" md="4">
+            <article className="about__card ps-5 ms-5 text-light">
               <GiGraduateCap className="about__icon" />
               <h5>Certificate</h5>
               <span>
@@ -56,10 +57,8 @@ const About = () => {
               </span>
             </article>
           </Col>
-        </Row>
-        <Row>
           <Col md="4">
-            <article className="about__card text-light">
+            <article className="about__card ps-5 text-light">
               <BsBookmarkStar className="about__icon" />
               <h5>Current GPA</h5>
               <span>95.65</span>

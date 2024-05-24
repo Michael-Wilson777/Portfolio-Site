@@ -7,7 +7,7 @@ export const PROJECTS = [
   {
     id: 0,
     img: nucampsite,
-    name: "NuCampsite Fictional Campground",
+    name: "NuCampsite Campground",
     languages: "HTML | CSS | Bootstrap",
     linkFile: "https://github.com/Michael-Wilson777/nucampsite",
     linkDemo: "https://mikewilson777-nucampsite-01.web.app",

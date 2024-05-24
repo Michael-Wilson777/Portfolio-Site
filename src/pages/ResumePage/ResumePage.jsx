@@ -1,13 +1,20 @@
 import { Container } from "reactstrap";
-import Nav from "../../components/Nav";
+// import Navigation from "../../components/nav/Navigation";
 import Resume from "./Resume";
 
 const ResumePage = () => {
   return (
-    <Container>
-      <Nav current='resume' />
-      <Resume />
+    <div>
+    {/* <Container fluid>
+
+      <Navigation current='resume' />     
+    </Container> */}
+    <Container fluid>
+    <Resume />
     </Container>
+    
+    </div>
+    
   );
 };
 export default ResumePage;

@@ -13,12 +13,21 @@
     /* background-color: rgba(0, 0, 0, 0.5); Black background with 50% opacity */
     /* color: white; White text
   } */ 
- 
+.card {
+    width:13rem;
+    
+}
 img {
     
     height: 12rem;
 
 }
+.card-body{
+    height: 10rem;
+}
+
+
+
 
 
 

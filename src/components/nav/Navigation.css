@@ -1,0 +1,41 @@
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+  
+    .nav-link {
+        
+  
+        
+     
+        
+    }
+  
+    .navbar {
+        padding-right:40rem;
+    }
+    .home-text, 
+    .proj-icon, 
+    .proj-text, 
+    .about-icon, 
+    .about-text, 
+    .contact-icon,
+    .contact-text, 
+    .resume-icon, 
+    .resume-text {
+      color: white;
+    }
+
+  
+
+    
+    /* .card-body {
+      padding: 20px; 
+    }
+    
+    .fileBtn, .demoBtn {
+      font-size: 1rem; 
+      margin-top: 10px; 
+    } */
+  }
+
+
+ 

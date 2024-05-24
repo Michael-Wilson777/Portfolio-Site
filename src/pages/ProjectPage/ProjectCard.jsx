@@ -5,14 +5,14 @@ import './ProjectCard.css'; // Make sure to import the CSS file
 const ProjectCard = ({ project }) => {
   const { id, img, name, languages, linkFile, linkDemo } = project;
   return (
-    <Link to={`${id}`}>
+    <Link to={`${id}`} className="card-link">
       <Card className='card'>
         <CardImg src={img} alt={name} />
-        <CardBody className="text-light fs-6">
+        <CardBody className="text-light fs-6 card-body">
           <CardTitle>{name}</CardTitle>
-          <CardText>{languages}</CardText>
+          <CardText className='card-text mb-4'>{languages}</CardText>
           <Button
-            className='fileBtn me-3'
+            className='fileBtn me-3 pt-2'
             color="primary"
             href={linkFile}
             target="_blank"
@@ -21,7 +21,7 @@ const ProjectCard = ({ project }) => {
             File
           </Button>
           <Button
-            classname='demoBtn'
+            className='demoBtn'
             color="primary"
             href={linkDemo}
             target="_blank"
@@ -36,3 +36,4 @@ const ProjectCard = ({ project }) => {
 };
 
 export default ProjectCard;
+
