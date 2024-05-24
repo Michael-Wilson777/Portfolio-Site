@@ -1,13 +1,9 @@
 
 
 
-.projects__page,
-.home-page,
-.contact,
-.about {
+body:not(.resume) {
     background-color: #010021;
     background-image: url('assets/asfalt-light.png');
-
 }
 
 

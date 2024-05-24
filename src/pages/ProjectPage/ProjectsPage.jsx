@@ -2,13 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import ProjectsList from "./ProjectsList";
 import MainNavigation from "../../components/nav/Navigation";
-import './Projects.css';
+// import './Projects.css';
 
 const ProjectsPage = () => {
   return (
-    <div className="projects__page ms-5 ps-5 mt-5">
+    <div className="projects__page">
       <MainNavigation current="projects" />
-      <Container className="dflex" fluid>
+      <Container fluid>
         <Row className="ps-5 ms-3">
           <Col>
             <ProjectsList className='text-light' />

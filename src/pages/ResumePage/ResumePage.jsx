@@ -4,7 +4,7 @@ import Resume from "./Resume";
 
 const ResumePage = () => {
   return (
-    <div>
+    <div >
     {/* <Container fluid>
 
       <Navigation current='resume' />     
