@@ -2,29 +2,55 @@
     font-family: Lobster, cursive, sans-serif;
     text-decoration: underline;
     color: #4BBBFF;
-}
+}*/
 
 
 
-.card-img-top{
-    height: 15rem;
-} */
-/* .card-body-custom {
-    /* background-color: rgba(0, 0, 0, 0.5); Black background with 50% opacity */
-    /* color: white; White text
-  } */ 
+
 .card {
-    width:13rem;
+    width:15rem;
+   
+   
     
 }
 img {
     
     height: 12rem;
+    
 
 }
 .card-body{
-    height: 10rem;
+    height: 5rem;
 }
+/* @media screen and (max-width: 1024px) {
+
+    .container{
+
+        width: var(--container-width-md);
+    }
+    .nav{
+        margin-right: 30rem;;
+    }
+
+
+    
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .container{
+
+        width: var(--container-width-sm);
+    }
+
+    section > h2{
+
+        margin-bottom: 2rem;
+    }
+} */
+
 
 
 

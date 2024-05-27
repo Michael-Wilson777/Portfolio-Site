@@ -9,19 +9,15 @@ import { Intro } from "./Intro";
 
 const HomePage = () => {
   return (
-    <Container className='home-page' fluid>
+    <Container className="home-page ms-5 mt-xxl-2 pt-xxl-5" fluid>
       <Row>
         <Col>
           <Intro />
         </Col>
-        <Col md="3">
+        <Col md="2">
           <NavHomePage current="Home" />
         </Col>
       </Row>
-      {/* <Header /> */}
-
-      {/* <PageList /> */}
-      {/* <Footer /> */}
     </Container>
   );
 };

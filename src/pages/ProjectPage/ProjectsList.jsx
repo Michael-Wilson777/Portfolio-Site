@@ -1,20 +1,19 @@
-
-// import { showProjects } from "./projectsSlice";
-// import React from "react";
-import { Row, Col } from "reactstrap";
+import { Row, Col, Container } from "reactstrap";
 import { PROJECTS } from "./PROJECTS";
 import ProjectCard from "./ProjectCard";
 import './ProjectCard.css';
 
 const ProjectsList = () => {
   return (
-    <Row className='ms-auto'>
+    <Container className='text-center mt-5 pt-3'>
+    <Row className='justify-content-center'>
       {PROJECTS.map((project) => (
-        <Col md='2' className='m-4' key={project.id}>
-          <ProjectCard className='card' project={project} />
+        <Col md='2' className='me-auto' key={project.id}>
+          <ProjectCard className='cards' project={project} />
         </Col>
       ))}
     </Row>
+    </Container>
   );
 }
 

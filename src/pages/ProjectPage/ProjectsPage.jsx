@@ -7,14 +7,11 @@ import MainNavigation from "../../components/nav/Navigation";
 const ProjectsPage = () => {
   return (
     <div className="projects__page">
+
       <MainNavigation current="projects" />
-      <Container fluid>
-        <Row className="ps-5 ms-3">
-          <Col>
-            <ProjectsList className='text-light' />
-          </Col>
-        </Row>
-      </Container>
+
+      <ProjectsList className='text-dark' />
+      
     </div>
   );
 };

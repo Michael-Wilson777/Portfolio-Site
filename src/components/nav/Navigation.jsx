@@ -15,13 +15,13 @@ const MainNavigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <Container fluid className="text-center nav-container">
-      <Navbar className="d-flex justify-content-end" dark sticky="top" expand="md">
+    <Container fluid className="text-center">
+      {/* <Navbar className="d-flex ps-lg-5 ms-lg-5" dark sticky="top" expand="md">
         <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
-        <Collapse isOpen={menuOpen} navbar>
-          <Nav className="ms-5 ps-5 pt-3 mb-3 navbar" navbar>
-            <NavItem md='3'>
-              <NavLink className="nav-link fs-3 me-5 pe-2" to="/">
+        <Collapse isOpen={menuOpen} navbar> */}
+          <Nav className="justify-content-center navbar">
+            <NavItem>
+              <NavLink className="nav-link fs-3 me-md-5 pe-md-2" to="/">
                 <i className="fa fa-home fa-lg home text-light mb-2"><p className='home-text text-light'> Home</p></i>
               </NavLink>
             </NavItem>
@@ -41,13 +41,13 @@ const MainNavigation = () => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link fs-3 ms-5" to="/resume">
+              <NavLink className="nav-link fs-3 ms-5 me-xxl-5" to="/resume">
                 <i className="fa fa-file fa-lg resume-icon text-light mb-2" /><p className='resume-text text-light'> Resume</p> 
               </NavLink>
             </NavItem>
           </Nav>
-        </Collapse>
-      </Navbar>
+        {/* </Collapse>
+      </Navbar> */}
     </Container>
   );
 };

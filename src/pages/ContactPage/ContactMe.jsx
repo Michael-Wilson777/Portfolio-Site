@@ -40,16 +40,15 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <Container fluid className="ms-5 mb-5">
+      <Container fluid className='pb-5 mb-5'>
         <Navigation current="/contact" />
       </Container>
-      <Container className='text-center ps-5'>
+      <Container className='text-center ps-5 pt-xl-5'>
         <Row>
           <Col sm='5'>
             <h1 className='text-light'>ThankYou!</h1>
             <p className='text-light fs-4'>
-              Feel free to contact me and let me know what you think. I'm still
-              learning but I'm also picking it up at a goo pace. I appreciate
+              Feel free to contact me and let me know what you think. I appreciate
               your visit!
             </p>
           </Col>
@@ -58,6 +57,8 @@ const Contact = () => {
               <MdOutlineEmail className="contact__option-icon" />
               <h4 className='email-head'>Email</h4>
               <h5 className='fs-5 email'>michaelwilson777@gmail.com</h5>
+              <a href='https://github.com/Michael-Wilson777'>GitHub</a><br/>
+              <a href='https://www.linkedin.com/in/michael-wilson-649464224/'>LinkedIn</a><br />
               <a className='sndMsg' href="mailto:michaelwilson777@gmail.com">Send a message</a>
             </article>
           </Col>

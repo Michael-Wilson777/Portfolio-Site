@@ -3,13 +3,15 @@
 
 body:not(.resume) {
     background-color: #010021;
-    background-image: url('assets/asfalt-light.png');
+    /* background-image: url('assets/asfalt-light.png'); */
+}
+html{
+
+    scroll-behavior: smooth;
 }
 
 
-/* .container, header, footer{
-    background-color: #010021;
-} */
+
 
 /* :root{
 
@@ -30,102 +32,10 @@ body:not(.resume) {
 } */
 
 
-html{
-
-    scroll-behavior: smooth;
-}
-
-
-/* App.css */
-/* .resume-container {
-    padding: 20px;
-    background-color: white;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  } */
-  
-
-
-/* body{
-
-    font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
-    color: var(--color-white);
-    line-height: 1.7;
-    overflow-y: auto;
-    overflow-x: hidden;
-    
-} */
-/* .navbar-dark {
-    /* background-color: #901cad;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a); */
-    /* margin-bottom: 2rem;
-    min-height: 8rem; */
-  /*} */
-/* .nav-link {
-
-} */
-/* .container{
-
-    width: var(--container-width-lg);
-    margin: 0 auto;  
-} */
-
-
-/* section{
-
-    margin-top: 8rem; 
-    
-} */
-
-
-/* section > h2, section > h5{
-
-    text-align: center;
-    color: var(--color-light);
-} */
-
-
-/* a{
-
-    color: var(--color-primary);
-    transition: var(--transition);
-}
-
-a:hover{
-
-    color: var(--color-white);
-} */
-
-/*.btn{
-
-    width: max-content; 
-    display: inline-block;
-    color: var(--color-primary);
-    padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    border: 1px solid var(--color-primary);
-    transition: var(--transition);
-}*/
-
-/* .btn:hover{
-
-    background: var(--color-white); */
-    /*color: var(--color-bg);*/
-    /* border-color: transparent;
-} */
-
-
-/* img{
-
-    display: block;
-    width: 100%;
-    object-fit: cover;
-} */
 
 
 
+/* 
 @media screen and (max-width: 1024px) {
 
     .container{
@@ -154,4 +64,4 @@ a:hover{
         margin-bottom: 2rem;
     }
     
-}
+} */

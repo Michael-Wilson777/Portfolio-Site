@@ -1,16 +1,18 @@
-import { Container } from "reactstrap";
+import { Container, Button } from "reactstrap";
 // import Navigation from "../../components/nav/Navigation";
 import Resume from "./Resume";
 
 const ResumePage = () => {
   return (
     <div >
-    {/* <Container fluid>
 
-      <Navigation current='resume' />     
-    </Container> */}
     <Container fluid>
     <Resume />
+    <Container className="text-center">
+        <Button className="mt-5" href="/">
+          Home
+        </Button>
+      </Container>
     </Container>
     
     </div>

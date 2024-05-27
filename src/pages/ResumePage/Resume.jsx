@@ -214,11 +214,7 @@ const Resume = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="text-center">
-        <Button className="mt-5" href="/home">
-          Home
-        </Button>
-      </Container>
+
     </div>
   );
 };
